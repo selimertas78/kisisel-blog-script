@@ -1,4 +1,6 @@
-<?php require_once "database.php"; ?>
+<?php require_once "database.php";
+      include "functions.php";
+?>
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
@@ -8,8 +10,9 @@
 
    <!--- Basic Page Needs
    ================================================== -->
-   <meta charset="utf-8">
-	<title>Keep It Simple.</title>
+   <?php $tema_ayar = tema_ayar(); ?>
+  <meta charset="utf-8">
+	<title><?php echo $tema_ayar['site_baslik']; ?></title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -43,8 +46,8 @@
 
    		<div class="header-content twelve columns">
 
-		      <h1 id="logo-text"><a href="index.html" title="">Keep It Simple.</a></h1>
-				<p id="intro">Put your awesome slogan here...</p>
+		      <h1 id="logo-text"><a href="index.html" title=""><?php echo $tema_ayar['site_baslik']; ?></a></h1>
+				<p id="intro"><?php echo $tema_ayar['site_slogan']; ?></p>
 
 			</div>
 

@@ -11,13 +11,13 @@
 
     <div class="twelve columns">
     <ul class="social-links">
-           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-           <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-           <li><a href="#"><i class="fa fa-github-square"></i></a></li>
-           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-           <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-           <li><a href="#"><i class="fa fa-skype"></i></a></li>
+           <li><a href="https://facebook.com/<?php echo $tema_ayar['facebook'] ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="https://twitter.com/<?php echo $tema_ayar['twitter'] ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
+           <li><a href="https://plus.google.com/<?php echo $tema_ayar['google'] ?>" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+           <li><a href="https://github.com/<?php echo $tema_ayar['github']?>" target="_blank"><i class="fa fa-github-square"></i></a></li>
+           <li><a href="https://instagram.com/<?php echo $tema_ayar['instagram'] ?>" target="_blank"><i class="fa fa-instagram"></i></a></li>
+           <li><a href="https://flickr.com/<?php echo $tema_ayar['flickr'] ?>" target="_blank"><i class="fa fa-flickr"></i></a></li>
+           <li><a href="https://skype.com/<?php echo $tema_ayar['skype'] ?>" target="_blank"><i class="fa fa-skype"></i></a></li>
         </ul>
     </div>
 
